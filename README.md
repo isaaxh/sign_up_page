@@ -1,1 +1,3 @@
-# sign_up_page
+# Sign Up Page
+
+Objective of the project:
