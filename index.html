@@ -8,6 +8,105 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Sign up form</h1>
+    <div class="main-content">
+      <div class="background-img-container">
+        <p class="img-credit">img by Akram Huseyn</p>
+      </div>
+      <div class="content">
+        <div class="descriptions">
+          <p>
+            Comfort is the enemy of greatness and success there is no time to be
+            comfortable. You only get one life and you want to waste that? Sign
+            up now and transform your life.
+          </p>
+          <p>It is up to <em>YOU</em> to decide.</p>
+        </div>
+        <form action="#" method="get" class="form">
+          <div class="form-content">
+            <h1>Let's do this!</h1>
+            <div class="columns">
+              <div
+                class="input-container column-1"
+                data-error="User input is wrong, please try again"
+              >
+                <div>
+                  <input
+                    type="text"
+                    name="first-name"
+                    placeholder="First Name"
+                    class="input"
+                    id="first-name"
+                    pattern="[a-zA-Z]"
+                    autofocus="true"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    class="input"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="password"
+                    name="password"
+                    class="input"
+                    id="password"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+              </div>
+              <div
+                class="input-container column-2"
+                data-error="User input is wrong, please try again"
+              >
+                <div>
+                  <input
+                    type="text"
+                    name="last-name"
+                    placeholder="Last Name"
+                    class="input"
+                    id="last-name"
+                    pattern="[a-zA-Z]"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    name="telephone"
+                    placeholder="Telephone Number"
+                    class="input"
+                    id="tel-number"
+                    maxlength="15"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="password"
+                    name="confirm-password"
+                    placeholder="Confirm Password"
+                    class
+                    id="confirm-password"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-and-text-container">
+            <button type="submit" class="create-btn">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
