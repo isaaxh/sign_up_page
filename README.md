@@ -14,3 +14,4 @@ What remains:
 
 - Add validation using CSS and html
 - Add validation using JS
+  [LIVE DEMO](https://isaaxh.github.io/sign_up_page)
